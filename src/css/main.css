@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom {
+  background: #f7f7f7 url('https://www.transparenttextures.com/patterns/arabesque.png');
+}

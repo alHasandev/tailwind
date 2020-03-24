@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS</title>
+  <!-- title & meta tag -->
+
+  <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="/dist/tailwind.css">
+  <!-- link to css file -->
+</head>
+
+<body class="bg-custom">
+  <div class="block md:flex">
+    <div
+      class="block md:flex md:flex-col md:justify-center bg-blue-900 md:min-h-screen md:w-1/2 py-24 px-8 text-center md:text-left">
+      <h1 class="text-blue-400 text-3xl font-semibold">The TailWindCSS Tutorial</h1>
+      <p class="text-white">From Gary Simon of DesignCourse</p>
+    </div>
+    <div class="block md:flex md:flex-col md:justify-center bg-transparent md:min-h-screen md:w-1/2 py-12 px-8">
+      <div class="flex bg-white rounded-lg shadow my-4 md:-ml-12 p-4">
+        <span class="bg-blue-400 inline-block w-6 h-6 rounded-full mr-4"></span>
+        <p class="text-lg">"It is truly awesome, man!"</p>
+      </div>
+      <div class="flex bg-white rounded-lg shadow my-4 p-4">
+        <span class="bg-blue-400 inline-block w-6 h-6 rounded-full mr-4"></span>
+        <p class="text-lg">"It is truly awesome, man!"</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
